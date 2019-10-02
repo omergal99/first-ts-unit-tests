@@ -21,7 +21,7 @@ function Counter() {
   }
 
   return (
-    <div>
+    <div className="counter">
       <h3>{myNum}</h3>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
